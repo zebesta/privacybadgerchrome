@@ -475,3 +475,4 @@
 @@||cdn.discourse.org^$third-party
 @@||bbci.co.uk^$third-party
 @@||bbc.co.uk^$third-party
+@@||deviantart.com^$third-party
