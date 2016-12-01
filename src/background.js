@@ -571,7 +571,7 @@ Badger.prototype = {
 
   /**
    * Check if cookie block settings are enabled to block after
-   * one occurence instead of three occurences
+   * one occurrence instead of three occurrences
    */
   cookieBlockSetting: function() {
     return this.getSettings().getItem("cookieBlockSetting");

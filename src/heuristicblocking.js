@@ -190,7 +190,7 @@ HeuristicBlocker.prototype = {
 
     //block the origin if it has been seen on multiple first party domains
 
-    // if User has selected the "Block trackers at first occurence" option,
+    // if User has selected the "Block trackers at first occurrence" option,
     // block the tracker with a threshold of 1, else, use the default 3
     var threshold = this.storage.settings_map._store.cookieBlockSetting ? constants.ACCELERATED_TRACKING_THRESHOLD : constants.TRACKING_THRESHOLD;
     if (httpRequestPrevalence >= threshold) {

@@ -191,8 +191,8 @@ function updateShowCounter() {
 }
 
 /**
- * Update setting for whether or not to block tracked cookies after 1 occurence
- * instead of 3 occurences (default is 3)
+ * Update setting for whether or not to block tracked cookies after 1 occurrence
+ * instead of 3 occurrences (default is 3)
  */
 function updateCookieBlockSetting() {
   var cookieBlockSetting = $("#cookie_setting_checkbox").prop("checked");
